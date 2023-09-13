@@ -19,4 +19,4 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("fire"):
 		cannon.fire()
 	
-	position.x += direction_optimized * speed * delta
+	position.x += direction_optimized*speed*delta

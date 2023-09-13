@@ -16,5 +16,5 @@ texture = ExtResource( 3 )
 script = ExtResource( 4 )
 projectile_scene = ExtResource( 5 )
 
-[node name="FirePosition" type="Position2D" parent="."]
+[node name="FirePosition" type="Position2D" parent="Cannon"]
 position = Vector2( 16.0635, -0.165405 )

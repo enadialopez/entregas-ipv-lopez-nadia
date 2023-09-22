@@ -10,17 +10,17 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Sprite",
-"class": "Projectil",
+"class": "Projectile",
 "language": "GDScript",
 "path": "res://entities/AbstractProjectil.gd"
 } ]
 _global_script_class_icons={
-"Projectil": ""
+"Projectile": ""
 }
 
 [application]
 
-config/name="Proyecto Godot - Clase 3"
+config/name="entrega-4-lopez-nadia"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 

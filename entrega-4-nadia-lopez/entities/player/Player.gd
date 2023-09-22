@@ -11,12 +11,15 @@ func set_projectile_container(container:Node):
 	projectile_container = container
 
 func _physics_process(delta):
-	var direction_optimized:int = int(Input.is_action_pressed("move_right")) - int(Input.is_action_pressed("move_left"))
+	var direction_optimized:int = int(Input.is_action_pressed("move_right")) - int(Input.is_action_pressed("move_left")).normalized()
 	
+	#Mira al mouse
 	var mouse_position:Vector2 = get_global_mouse_position()
 	cannon.look_at(mouse_position)
 	
+	#dispara si hacemos click
 	if Input.is_action_just_pressed("fire"):
 		cannon.fire()
 	
+	#movimiento izquierda - derecha del personaje
 	position.x += direction_optimized*speed*delta

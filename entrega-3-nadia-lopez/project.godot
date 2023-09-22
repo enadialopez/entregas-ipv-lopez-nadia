@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="main"
+config/name="entrega-3-lopez-nadia"
 run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
 

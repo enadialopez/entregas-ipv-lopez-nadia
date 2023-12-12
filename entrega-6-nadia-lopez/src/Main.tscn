@@ -126,7 +126,7 @@ turret_scene = ExtResource( 5 )
 extents = Vector2( 300, -350 )
 
 [node name="Turret" parent="Environment/Entities" instance=ExtResource( 5 )]
-position = Vector2( 1608.14, 497.862 )
+position = Vector2( 1581, 377 )
 
 [node name="Objects" type="Node2D" parent="Environment"]
 
